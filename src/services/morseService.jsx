@@ -1,4 +1,4 @@
-const morseCodemap = [
+export const morseCodemap = [
     {
         alphabet: 'A',
         value: '.-',
@@ -129,7 +129,7 @@ const morseCodemap = [
         correspondance: 'Zoroastre'
     },
 ]
-const opposes = ["A-N", "E-T", "I-M", "S-O", "H-CH", "U-D", "V-B", "R-K", "P-X", "L-Y", "F-Q"]
+export const opposes = ["A-N", "E-T", "I-M", "S-O", "H-CH", "U-D", "V-B", "R-K", "P-X", "L-Y", "F-Q"]
 
 const abreviation = [
     {

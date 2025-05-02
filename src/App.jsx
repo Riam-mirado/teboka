@@ -1,13 +1,12 @@
-import { useState } from 'react'
+import { useState, useRef, useEffect } from 'react'
 import './App.css'
+import ListMorsePage from './pages/ListMorsePage'
+import MorseQuiz from './pages/MorseQuiz'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      <h1>begin project</h1>
-    </>
+      <MorseQuiz />
   )
 }
 
